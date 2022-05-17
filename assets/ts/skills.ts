@@ -38,7 +38,7 @@ const skills = {
 }
 
 //function to parse list of skills and add them to the html as a list
-function make_skill_list(msg:string, skills:string[]){
+function make_skill_list(msg:string, skills:string[]): string{
     skills.forEach(skill => {
         msg = msg.concat(`<li>${skill}</li>`);
     });
