@@ -95,7 +95,7 @@ const experience = {
         "Milton, Ontario, Canada",
         [
             "Used technologies such as Microsft Excel and Quickbooks to log clients' financial information.",
-            "Was responsible for preparing client financial documents for federal audits."
+            "Responsible for preparing client financial documents for federal audits."
         ]
     )
 }

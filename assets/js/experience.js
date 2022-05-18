@@ -53,7 +53,7 @@ const experience = {
     ]),
     "bookkeeper": new job("Bookkeeper", "Brillion Group", "Accounting Firm", "February 2019 - August 2019", "Milton, Ontario, Canada", [
         "Used technologies such as Microsft Excel and Quickbooks to log clients' financial information.",
-        "Was responsible for preparing client financial documents for federal audits."
+        "Responsible for preparing client financial documents for federal audits."
     ])
 };
 let msg = "<h3 class=\"resume-title\">Professional Experience</h3>";
