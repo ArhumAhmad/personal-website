@@ -2,7 +2,8 @@
 const summary = {
     "name": "Arhum Ahmad",
     "description": "Recent University of Toronto graduate with a demonstrated history of experience in data science, machine learning, and statistical research.",
-    "phone": "(647)-608-1349",
+    "phone_string": "(647)-608-1349",
+    "phone_number": "6476081349",
     "email": "arhum.a@live.ca"
 }
 
@@ -13,7 +14,7 @@ let msg:string =
     ${summary.description}
     </em></p>
     <ul>
-    <li>${summary.phone}</li>
+    <li><a href="tel:${summary.phone_number}">${summary.phone_string}</li>
     <li><a href="mailto:${summary.email}">${summary.email}</a></li>
     </ul>`;
 

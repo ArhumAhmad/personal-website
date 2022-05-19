@@ -2,10 +2,12 @@
 class rsch_project{
     title:string;
     description:string;
+    link:string;
 
-    constructor(title:string, description:string){
-        this.title = title;
+    constructor(title:string, description:string, link:string){
+        this.title       = title;
         this.description = description
+        this.link        = link;
     }
 }
 
@@ -13,10 +15,12 @@ class rsch_project{
 class per_project{
     title:string;
     description:string[];
+    link:string;
 
-    constructor(title:string, description:string[]){
-        this.title = title;
+    constructor(title:string, description:string[], link:string){
+        this.title       = title;
         this.description = description;
+        this.link        = link;
     }
 }
 
@@ -26,14 +30,18 @@ const rsch = {
         "Statistical Analysis of Transportation Methods of Students at the University of Toronto",
 
         `Collaborated with a team of researchers to conduct a study on preferred methods of transportation for university students.
-        Gathered and analyzed data to prepare for a formal report and presentation, including data visuals.`
+        Gathered and analyzed data to prepare for a formal report and presentation, including data visuals.`,
+
+        `https://github.com/ArhumAhmad/DataVisualization/blob/main/%5B2019%5D%20Proportions%20of%20Transportation%20Methods%20Used%20by%20STA304%20Students.pptx`
     ),
 
     "rice": new rsch_project(
         `Experimental Analysis of Variables Impacting Preperation Time of Rice`,
 
         `Collaborated with a team of researchers and data scientists to determine 
-        the variables that impact the total cooking time of rice. Gathered experimental data to analyze and visually present using R.`
+        the variables that impact the total cooking time of rice. Gathered experimental data to analyze and visually present using R.`,
+
+        `https://github.com/ArhumAhmad/DataVisualization/blob/main/%5B2020%5D%20STA302%20Final%20Project.pdf`
     )
 };
 
@@ -47,7 +55,9 @@ const per = {
             `Cleaned data using Pandas libraries.`,
 
             `Used Scikit-Learn logistic regression libraries to train the model and achieve almost 80% accuracy on over 100 test cases.`
-        ]
+        ],
+
+        `https://deerhacks-landing-page.vercel.app/`
     ),
 
     "shoes": new per_project(
@@ -58,7 +68,9 @@ const per = {
             `Built multiple networks to analyze differences in predictions based on number of channels, layers, kernel sizes, etc.`,
 
             `Batch training and optimization implmented.`
-        ]
+        ],
+
+        `https://github.com/ArhumAhmad/SchoolProjects/blob/main/CSC321%20(Neural%20Networks)/p3/p3.ipynb`
     ),
 
     "news": new per_project(
@@ -68,7 +80,9 @@ const per = {
 
             `Uses Recurring Neural Networks (RNNs), and autoencoder and decoder, word embeddings, and teacher-forcing 
             methods to learn from hundreds of thousands of news headlines and generates realistic headlines as outputs.`
-        ]
+        ],
+
+        `https://github.com/ArhumAhmad/SchoolProjects/blob/main/CSC321%20(Neural%20Networks)/p4/p4.ipynb`
     )
 };
 
@@ -82,6 +96,9 @@ function insert_rsch_proj(msg:string, proj:rsch_project): string{
 
     //insert project description
     msg = msg.concat(`<p>${proj.description}</p>`);
+
+    //insert link to project
+    msg = msg.concat(`<p><a href="${proj.link}" target="_blank">Link</a></p>`);
 
     //close resume item
     msg = msg.concat(`</div>`);
@@ -103,6 +120,9 @@ function insert_per_proj(msg:string, proj:per_project): string{
         msg = msg.concat(`<li>${project}</li>`);
     });
     msg = msg.concat("</ul>");
+
+    //insert project link
+    msg = msg.concat(`<p><a href="${proj.link}" target="_blank">Link</a></p>`);
 
     //close resume item
     msg = msg.concat("</div>");
