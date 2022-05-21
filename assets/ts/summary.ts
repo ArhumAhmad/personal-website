@@ -14,7 +14,6 @@ let msg:string =
     ${summary.description}
     </em></p>
     <ul>
-    <li><a href="tel:${summary.phone_number}">${summary.phone_string}</li>
     <li><a href="mailto:${summary.email}">${summary.email}</a></li>
     </ul>`;
 

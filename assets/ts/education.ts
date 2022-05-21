@@ -17,7 +17,6 @@ const education = {
 //Built the html code until the list of courses begins
 let msg:string = `
 <h4>${education.degree}</h4>
-<h5>${education.year}</h5>
 <p><em>${education.school}</em></p>
 <h4>Courses Taken</h4>
 <ul>

@@ -79,8 +79,8 @@ const experience = {
         [
             "Managed accounts with statements and invoices on a bi-weekly basis and maintained record accuracy.",
             "Took a leadership role on the team and implemented strategies to decrease costs while increasing club services.",
-            "Part-time instructor, where I used my communication skills to teach boxing to a class of 8-12 people per week.",
-            "Regularly held fundraising and informational events where I would interact with a large number of students and could advertise the club.",
+            "Part-time instructor, used my communication skills to teach boxing to a class of 8-12 people per week.",
+            "Regularly held fundraising and informational events and would interact with a large number of students to market the club.",
             "Collaborated with a member of the Women in Science and Computing society to create a women's only boxing class. The event was a huge success.",
             "Organized a mental health event to help students relieve stress before exams.",
             "Sports Club of the Year 2020: our small team was recognized by the student body for our contribution to the improved physical and mental health on campus."
