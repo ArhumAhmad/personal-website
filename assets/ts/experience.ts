@@ -94,7 +94,7 @@ const experience = {
         "February 2019 - August 2019",
         "Milton, Ontario, Canada",
         [
-            "Used technologies such as Microsft Excel and Quickbooks to log clients' financial information.",
+            "Used technologies such as Microsoft Excel and Quickbooks to log clients' financial information.",
             "Responsible for preparing client financial documents for federal audits."
         ]
     )

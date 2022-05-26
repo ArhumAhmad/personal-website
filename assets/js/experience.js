@@ -52,7 +52,7 @@ const experience = {
         "Sports Club of the Year 2020: our small team was recognized by the student body for our contribution to the improved physical and mental health on campus."
     ]),
     "bookkeeper": new job("Bookkeeper", "Brillion Group", "Accounting Firm", "February 2019 - August 2019", "Milton, Ontario, Canada", [
-        "Used technologies such as Microsft Excel and Quickbooks to log clients' financial information.",
+        "Used technologies such as Microsoft Excel and Quickbooks to log clients' financial information.",
         "Responsible for preparing client financial documents for federal audits."
     ])
 };
