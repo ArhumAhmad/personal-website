@@ -44,7 +44,7 @@ function insert_job(msg:string, job:job): string{
 //dictionary containing experience objects
 const experience = {
     "developer": new job(
-        "Software Developer",
+        "Software Release Manager",
         "distrotek",
         "Front End Development Lab",
         "April 2022 - Present",
@@ -52,7 +52,9 @@ const experience = {
         [
             "Work with a variety of front-end programming languages such as HTML, CSS, JavaScript and TypeScript to develop interactive and engaging websites for clients and consumers.",
             "Using databases to derive data insights for strategic decision-making and project planning.",
-            "Communicate with clients to determine the best design and implementation approach on a case-by-case basis."
+            "Communicate with clients to determine the best design and implementation approach on a case-by-case basis.",
+            "Manage a team of developers and set realistic goals and deadlines for software production.",
+            "Make design and engineering decisions for the software that my team builds."
         ]
     ),
 
@@ -102,7 +104,7 @@ const experience = {
 
 let msg:string = "<h3 class=\"resume-title\">Professional Experience</h3>";
 
-Object.entries(experience).forEach(entry => {
+Object.entries(experience).forEach((entry) => {
     msg = insert_job(msg, entry[1]);
 });
 

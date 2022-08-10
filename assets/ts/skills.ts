@@ -3,7 +3,9 @@ const skills = {
     "technical": [
         "Machine Learning and Neural Networks",
         "Data Analysis and Cleaning",
-        "Web Scraping"
+        "Web Scraping",
+        "Firebase/Firestore",
+        "AWS Amplify"
     ],
 
     "langs": [
@@ -12,7 +14,7 @@ const skills = {
         "R and RStudio",
         "C#",
         "Java",
-        "HTML",
+        "HTML and CSS",
         "C"
     ],
 
@@ -21,10 +23,13 @@ const skills = {
         "Scikit-Learn",
         "TensorFlow",
         "Pandas",
-        "Numpy"
+        "Numpy",
+        "React"
     ],
 
     "other": [
+        "Project Management",
+        "Leadership",
         "Teamwork and Collaboration",
         "Analytical Thinking and Problem Solving",
         "Communication Ability",
