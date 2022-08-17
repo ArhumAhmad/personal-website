@@ -59,7 +59,7 @@ const experience = {
     ),
 
     "analyst": new job(
-        "Data Analyst",
+        "Data Scientist",
         "Data Glacier",
         "Data Lab",
         "June 2021 - October 2021",

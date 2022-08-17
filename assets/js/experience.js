@@ -38,7 +38,7 @@ const experience = {
         "Manage a team of developers and set realistic goals and deadlines for software production.",
         "Make design and engineering decisions for the software that my team builds."
     ]),
-    "analyst": new job("Data Analyst", "Data Glacier", "Data Lab", "June 2021 - October 2021", "Remote", [
+    "analyst": new job("Data Scientist", "Data Glacier", "Data Lab", "June 2021 - October 2021", "Remote", [
         "Collected, monitored and analyzed big data to determine sales trends for clients and their organizations.",
         "Developed visuals for big data using data visualization tools such as R and Seaborn.",
         "Developed predictive models for real estate trends using Scikit-Learn.",
