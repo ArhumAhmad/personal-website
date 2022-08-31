@@ -31,7 +31,7 @@ function insert_job(msg, job) {
 }
 //dictionary containing experience objects
 const experience = {
-    "developer": new job("Software Release Manager", "distrotek", "Front End Development Lab", "April 2022 - Present", "Ottawa, Ontario, Canada", [
+    "developer": new job("Software Engineering Team Lead", "Lonehaven", "Front End Development Lab", "April 2022 - Present", "Ottawa, Ontario, Canada", [
         "Work with a variety of front-end programming languages such as HTML, CSS, JavaScript and TypeScript to develop interactive and engaging websites for clients and consumers.",
         "Using databases to derive data insights for strategic decision-making and project planning.",
         "Communicate with clients to determine the best design and implementation approach on a case-by-case basis.",

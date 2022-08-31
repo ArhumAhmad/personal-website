@@ -44,8 +44,8 @@ function insert_job(msg:string, job:job): string{
 //dictionary containing experience objects
 const experience = {
     "developer": new job(
-        "Software Release Manager",
-        "distrotek",
+        "Software Engineering Team Lead",
+        "Lonehaven",
         "Front End Development Lab",
         "April 2022 - Present",
         "Ottawa, Ontario, Canada",
